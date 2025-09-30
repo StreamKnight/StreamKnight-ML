@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class tensor:
     def __init__(self, data, dtype=None, device='cpu'):
         # Convert input to numpy array
@@ -10,7 +9,7 @@ class tensor:
 
         # Metadata
         self.dtype = self.data.dtype
-        self.device = device  # For now, only 'cpu'
+        self.device = device
 
     @property
     def shape(self):
