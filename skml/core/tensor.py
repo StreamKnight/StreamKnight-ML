@@ -7,7 +7,6 @@ class tensor:
             data = data.data
         self.data = np.array(data, dtype=dtype)
 
-        # Metadata
         self.dtype = self.data.dtype
         self.device = device
 
