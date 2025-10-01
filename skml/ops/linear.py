@@ -1,4 +1,3 @@
-# skml/ops/linear.py
 import numpy as np
 from skml.core.tensor import tensor
 
